@@ -1,0 +1,13 @@
+Questions regarding Taxis in NYC
+
+1. How has FHV's presence grown in NYC relative to tradition taxis? Are there more overall rides in total? How much market share are FHVs actually taking? Has the presence of FHVs impacted green or yellow taxis more? Are there specific segmentations where FHVs had a substantial impact? Such as maybe ubers took 50% of market share for night rides as opposed to only 20% for daytime rides. Are FHVs generally cheaper or more expensive than yellow/green taxis? The overarching question is how does FHVs as an existence fit into the NYC taxi ecosystem?
+
+2. Ride segmentation. How many different types of rides are there? Perhaps there are clusters of rides based on time of day or day of week (density plots). Perhaps there are clusters of rides based on price and distance. Perhaps nighttime has a much higher passenger/ride ratio. Kmeans analysis.
+
+3. Ride zone analysis. Where are most trips coming from and going to? Which pair of zones has the most number of trips per week/month/year? Is this ranking consistent year to year? Can we create a heat map regarding the direction of trips? Perhaps we can look at hotspots for taxi traffic such as airports and train stations and compare with random areas to gauge spectrum of concentration of rides.
+
+4. Since yellow and green taxis have similar features we train a model to predict whether a ride is yellow or green. While this does lack practical usage (we always know whether a ride is yellow/green IRL), could be an interesting exercise in feature selection/feature engineering. 
+
+5. Impact of rides based on weather (temperature/rain/snow/wind). Can we build a prediction model of number of yellow/green/fhv rides for a given day given the weather conditions and/or day of week/month/year? Are there specific weather thresholds that dramatically cause an increase in rides? What if weather is so bad i.e. hurricane sandy that no one wants to leave home so there is actually a decrease in rides? Jimmy is ordering weather data from NOAA, not sure how long it'll take to process my request so major asterisk on this analysis.
+
+6.
