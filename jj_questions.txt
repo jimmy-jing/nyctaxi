@@ -10,4 +10,6 @@ Questions regarding Taxis in NYC
 
 5. Impact of rides based on weather (temperature/rain/snow/wind). Can we build a prediction model of number of yellow/green/fhv rides for a given day given the weather conditions and/or day of week/month/year? Are there specific weather thresholds that dramatically cause an increase in rides? What if weather is so bad i.e. hurricane sandy that no one wants to leave home so there is actually a decrease in rides? Jimmy is ordering weather data from NOAA, not sure how long it'll take to process my request so major asterisk on this analysis.
 
-6.
+6.How would other external factors such as gas price impact pricing among different taxi fares?
+
+7. Internal analysis of HFFHVs vs other FHVs. Who is hurt more by uber? Yellow taxis or original FHVs?
